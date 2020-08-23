@@ -1,0 +1,15 @@
+ext {
+    deps = [
+            glide        : [
+                    lang: 'org.apache.fineract.cn:lang:spring_boot_2-SNAPSHOT'
+            ],
+            spring       : [],
+            springBoot   : [
+                    test     : 'org.springframework.boot:spring-boot-starter-test',
+                    cassandra: 'org.springframework.boot:spring-boot-starter-data-cassandra'
+            ],
+            miscellaneous: [
+                    findBugs: 'com.google.code.findbugs:jsr305:3.0.2'
+            ]
+    ]
+}
