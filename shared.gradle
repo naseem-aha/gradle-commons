@@ -6,6 +6,8 @@ ext {
             spring       : [],
             springBoot   : [
                     test     : 'org.springframework.boot:spring-boot-starter-test',
+                    web      : 'org.springframework.boot:spring-boot-starter-web',
+                    validator: 'org.springframework.boot:spring-boot-starter-validation',
                     cassandra: 'org.springframework.boot:spring-boot-starter-data-cassandra'
             ],
             miscellaneous: [
