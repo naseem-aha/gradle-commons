@@ -19,6 +19,18 @@ ext {
     ]
 }
 
+repositories {
+    mavenCentral()
+    maven { url 'https://mifos.jfrog.io/mifos/libs-snapshot/' }
+    maven {
+        url = 'https://glide.jfrog.io/artifactory/snapshot/'
+        credentials {
+            username = artifactoryUsername
+            password = artifactoryPassword
+        }
+    }
+}
+
 artifactory {
     contextUrl = System.getenv("ARTIFACTORY_CONTEXT_URL")
     publish {
