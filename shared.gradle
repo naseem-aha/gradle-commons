@@ -5,6 +5,7 @@ ext {
                     test                              : 'org.apache.fineract.cn:test:spring_boot_2-SNAPSHOT',
                     lang                              : 'org.apache.fineract.cn:lang:spring_boot_2-SNAPSHOT',
                     cassandra                         : 'org.apache.fineract.cn:cassandra:spring_boot_2-SNAPSHOT',
+                    postgresql                        : 'org.apache.fineract.cn:postgresql:spring_boot_2-SNAPSHOT',
                     anubisApi                         : 'org.apache.fineract.cn.anubis:api:spring_boot_2-SNAPSHOT',
                     anubisLibrary                     : 'org.apache.fineract.cn.anubis:library:spring_boot_2-SNAPSHOT',
                     identityApi                       : 'org.apache.fineract.cn.identity:api:spring_boot_2-SNAPSHOT',
@@ -35,9 +36,11 @@ ext {
                     jwt                      : 'io.jsonwebtoken:jjwt:0.9.1',
                     expiringMap              : 'net.jodah:expiringmap:0.5.9',
                     flyway                   : 'org.flywaydb:flyway-core:6.5.4',
+                    nettyAll                 : 'io.netty:netty-all:4.1.51.Final',
                     lombok                   : 'org.projectlombok:lombok:1.18.12',
                     findBugs                 : 'com.google.code.findbugs:jsr305:3.0.2',
-                    nettyAll                 : 'io.netty:netty-all:4.1.51.Final',
+                    cassandraUnit            : 'org.cassandraunit:cassandra-unit:4.3.1.0',
+                    otjPgEmbedded            : 'com.opentable.components:otj-pg-embedded:0.13.3',
                     nettyTransportNativeEpoll: 'io.netty:netty-transport-native-epoll:4.1.51.Final',
             ]
     ]
