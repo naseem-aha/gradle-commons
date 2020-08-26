@@ -1,7 +1,9 @@
 ext {
     deps = [
             glide        : [
-                    lang: 'org.apache.fineract.cn:lang:spring_boot_2-SNAPSHOT'
+                    api : 'org.apache.fineract.cn:api:spring_boot_2-SNAPSHOT',
+                    lang: 'org.apache.fineract.cn:lang:spring_boot_2-SNAPSHOT',
+                    identityApi: 'org.apache.fineract.cn.identity:api:spring_boot_2-SNAPSHOT'
             ],
             spring       : [],
             springCloud  : [
@@ -17,6 +19,7 @@ ext {
                     cassandra: 'org.springframework.boot:spring-boot-starter-data-cassandra',
             ],
             miscellaneous: [
+                    gson    : 'com.google.code.gson:gson',
                     postgres: 'org.postgresql:postgresql',
                     flyway  : 'org.flywaydb:flyway-core:6.5.4',
                     lombok  : 'org.projectlombok:lombok:1.18.12',
