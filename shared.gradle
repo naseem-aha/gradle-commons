@@ -26,6 +26,7 @@ ext {
                     web      : 'org.springframework.boot:spring-boot-starter-web',
                     test     : 'org.springframework.boot:spring-boot-starter-test',
                     jetty    : 'org.springframework.boot:spring-boot-starter-jetty',
+                    actuator : 'org.springframework.boot:spring-boot-starter-actuator',
                     jpa      : 'org.springframework.boot:spring-boot-starter-data-jpa',
                     validator: 'org.springframework.boot:spring-boot-starter-validation',
                     cassandra: 'org.springframework.boot:spring-boot-starter-data-cassandra',
