@@ -39,6 +39,7 @@ ext {
                     flyway                   : 'org.flywaydb:flyway-core:6.5.4',
                     nettyAll                 : 'io.netty:netty-all:4.1.51.Final',
                     lombok                   : 'org.projectlombok:lombok:1.18.12',
+                    junit5                   : 'org.junit.jupiter:junit-jupiter:5.6.2',
                     findBugs                 : 'com.google.code.findbugs:jsr305:3.0.2',
                     cassandraUnit            : 'org.cassandraunit:cassandra-unit:4.3.1.0',
                     otjPgEmbedded            : 'com.opentable.components:otj-pg-embedded:0.13.3',
