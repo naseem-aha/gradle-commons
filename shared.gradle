@@ -6,6 +6,7 @@ ext {
                     lang                              : 'org.apache.fineract.cn:lang:spring_boot_2-SNAPSHOT',
                     cassandra                         : 'org.apache.fineract.cn:cassandra:spring_boot_2-SNAPSHOT',
                     postgresql                        : 'org.apache.fineract.cn:postgresql:spring_boot_2-SNAPSHOT',
+                    anubisTest                        : 'org.apache.fineract.cn.anubis:test:spring_boot_2-SNAPSHOT',
                     anubisApi                         : 'org.apache.fineract.cn.anubis:api:spring_boot_2-SNAPSHOT',
                     anubisLibrary                     : 'org.apache.fineract.cn.anubis:library:spring_boot_2-SNAPSHOT',
                     identityApi                       : 'org.apache.fineract.cn.identity:api:spring_boot_2-SNAPSHOT',
@@ -29,6 +30,7 @@ ext {
                     actuator : 'org.springframework.boot:spring-boot-starter-actuator',
                     jpa      : 'org.springframework.boot:spring-boot-starter-data-jpa',
                     validator: 'org.springframework.boot:spring-boot-starter-validation',
+                    ribbon   : 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon',
                     cassandra: 'org.springframework.boot:spring-boot-starter-data-cassandra',
             ],
             miscellaneous: [
