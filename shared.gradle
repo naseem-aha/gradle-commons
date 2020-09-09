@@ -2,6 +2,8 @@ ext {
     deps = [
             glide        : [
                     api                               : 'org.apache.fineract.cn:api:spring_boot_2-SNAPSHOT',
+                    async                             : 'org.apache.fineract.cn:async:spring_boot_2-SNAPSHOT',
+                    crypto                            : 'org.apache.fineract.cn:crypto:spring_boot_2-SNAPSHOT',
                     test                              : 'org.apache.fineract.cn:test:spring_boot_2-SNAPSHOT',
                     lang                              : 'org.apache.fineract.cn:lang:spring_boot_2-SNAPSHOT',
                     cassandra                         : 'org.apache.fineract.cn:cassandra:spring_boot_2-SNAPSHOT',
