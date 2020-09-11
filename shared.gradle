@@ -5,7 +5,7 @@ ext {
                     async                             : 'org.apache.fineract.cn:async:spring_boot_2-SNAPSHOT',
                     crypto                            : 'org.apache.fineract.cn:crypto:spring_boot_2-SNAPSHOT',
                     test                              : 'org.apache.fineract.cn:test:0.1.0',
-                    lang                              : 'org.apache.fineract.cn:lang:spring_boot_2-SNAPSHOT',
+                    lang                              : 'org.apache.fineract.cn:lang:0.1.0',
                     cassandra                         : 'org.apache.fineract.cn:cassandra:0.1.0',
                     postgresql                        : 'org.apache.fineract.cn:postgresql:spring_boot_2-SNAPSHOT',
                     anubisApi                         : 'org.apache.fineract.cn.anubis:api:spring_boot_2-SNAPSHOT',
