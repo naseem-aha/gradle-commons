@@ -41,6 +41,8 @@ ext {
                     validator: 'org.springframework.boot:spring-boot-starter-validation',
                     ribbon   : 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon',
                     cassandra: 'org.springframework.boot:spring-boot-starter-data-cassandra',
+                    activemq : 'org.springframework.boot:spring-boot-starter-activemq'
+,
             ],
             miscellaneous: [
                     gson                     : 'com.google.code.gson:gson',
