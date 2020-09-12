@@ -21,7 +21,9 @@ ext {
                     permittedFeignClientLibrary       : 'org.apache.fineract.cn.permitted-feign-client:library:0.1.0',
                     permittedFeignClientAnotherForTest: 'org.apache.fineract.cn.permitted-feign-client:another-for-test:0.1.0',
             ],
-            spring       : [],
+            spring       : [
+                    securityWeb : 'org.springframework.security:spring-security-web:5.4.0',
+            ],
             springCloud  : [
                     security    : 'org.springframework.boot:spring-boot-starter-security',
                     configClient: 'org.springframework.cloud:spring-cloud-starter-config',
