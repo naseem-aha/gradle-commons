@@ -8,9 +8,12 @@ ext {
                     lang                              : 'org.apache.fineract.cn:lang:0.1.0',
                     cassandra                         : 'org.apache.fineract.cn:cassandra:0.1.0',
                     postgresql                        : 'org.apache.fineract.cn:postgresql:spring_boot_2-SNAPSHOT',
-                    anubisApi                         : 'org.apache.fineract.cn.anubis:api:spring_boot_2-SNAPSHOT',
-                    anubisTest                        : 'org.apache.fineract.cn.anubis:test:spring_boot_2-SNAPSHOT',
-                    anubisLibrary                     : 'org.apache.fineract.cn.anubis:library:spring_boot_2-SNAPSHOT',
+
+                    anubisApi                         : 'org.apache.fineract.cn.anubis:api:0.1.0',
+                    anubisTest                        : 'org.apache.fineract.cn.anubis:test:0.1.0',
+                    anubisLibrary                     : 'org.apache.fineract.cn.anubis:library:0.1.0',
+                    anubisComponentTest               : 'org.apache.fineract.cn.anubis:component-test:0.1.0',
+                    
                     identityApi                       : 'org.apache.fineract.cn.identity:api:spring_boot_2-SNAPSHOT',
                     serviceStarter                    : 'org.apache.fineract.cn:service-starter:spring_boot_2-SNAPSHOT',
                     permittedFeignClientApi           : 'org.apache.fineract.cn.permitted-feign-client:api:spring_boot_2-SNAPSHOT',
