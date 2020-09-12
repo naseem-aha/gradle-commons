@@ -3,7 +3,7 @@ ext {
             glide        : [
                     api                               : 'org.apache.fineract.cn:api:0.1.0',
                     async                             : 'org.apache.fineract.cn:async:0.1.0',
-                    crypto                            : 'org.apache.fineract.cn:crypto:spring_boot_2-SNAPSHOT',
+                    crypto                            : 'org.apache.fineract.cn:crypto:0.1.0',
                     test                              : 'org.apache.fineract.cn:test:0.1.0',
                     lang                              : 'org.apache.fineract.cn:lang:0.1.0',
                     cassandra                         : 'org.apache.fineract.cn:cassandra:0.1.0',
