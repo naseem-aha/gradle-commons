@@ -8,6 +8,7 @@ ext {
                     lang                              : 'org.apache.fineract.cn:lang:0.1.0',
                     cassandra                         : 'org.apache.fineract.cn:cassandra:0.1.0',
                     postgresql                        : 'org.apache.fineract.cn:postgresql:0.1.0',
+                    command                           : 'org.apache.fineract.cn:command:0.1.0',
 
                     anubisApi                         : 'org.apache.fineract.cn.anubis:api:0.1.0',
                     anubisTest                        : 'org.apache.fineract.cn.anubis:test:0.1.0',
