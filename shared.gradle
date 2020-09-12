@@ -22,6 +22,7 @@ ext {
                     permittedFeignClientAnotherForTest: 'org.apache.fineract.cn.permitted-feign-client:another-for-test:0.1.0',
             ],
             spring       : [
+                    securityCore: 'org.springframework.security:spring-security-core:5.4.0',
                     securityWeb : 'org.springframework.security:spring-security-web:5.4.0',
             ],
             springCloud  : [
