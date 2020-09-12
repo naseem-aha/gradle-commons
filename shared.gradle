@@ -16,9 +16,10 @@ ext {
                     
                     identityApi                       : 'org.apache.fineract.cn.identity:api:spring_boot_2-SNAPSHOT',
                     serviceStarter                    : 'org.apache.fineract.cn:service-starter:spring_boot_2-SNAPSHOT',
-                    permittedFeignClientApi           : 'org.apache.fineract.cn.permitted-feign-client:api:spring_boot_2-SNAPSHOT',
-                    permittedFeignClientLibrary       : 'org.apache.fineract.cn.permitted-feign-client:library:spring_boot_2-SNAPSHOT',
-                    permittedFeignClientAnotherForTest: 'org.apache.fineract.cn.permitted-feign-client:another-for-test:spring_boot_2-SNAPSHOT',
+
+                    permittedFeignClientApi           : 'org.apache.fineract.cn.permitted-feign-client:api:0.1.0',
+                    permittedFeignClientLibrary       : 'org.apache.fineract.cn.permitted-feign-client:library:0.1.0',
+                    permittedFeignClientAnotherForTest: 'org.apache.fineract.cn.permitted-feign-client:another-for-test:0.1.0',
             ],
             spring       : [],
             springCloud  : [
