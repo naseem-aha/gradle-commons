@@ -15,7 +15,8 @@ ext {
                     anubisLibrary                     : 'org.apache.fineract.cn.anubis:library:0.1.0',
                     anubisComponentTest               : 'org.apache.fineract.cn.anubis:component-test:0.1.0',
                     
-                    identityApi                       : 'org.apache.fineract.cn.identity:api:spring_boot_2-SNAPSHOT',
+                    identityApi                       : 'org.apache.fineract.cn.identity:api:0.1.0',
+
                     serviceStarter                    : 'org.apache.fineract.cn:service-starter:spring_boot_2-SNAPSHOT',
 
                     permittedFeignClientApi           : 'org.apache.fineract.cn.permitted-feign-client:api:0.1.0',
