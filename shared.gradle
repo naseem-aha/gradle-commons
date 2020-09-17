@@ -26,6 +26,7 @@ ext {
             spring       : [
                     securityCore: 'org.springframework.security:spring-security-core:5.4.0',
                     securityWeb : 'org.springframework.security:spring-security-web:5.4.0',
+                    messagingJms: 'org.springframework:spring-jms:5.2.9.RELEASE'
             ],
             springCloud  : [
                     security    : 'org.springframework.boot:spring-boot-starter-security',
