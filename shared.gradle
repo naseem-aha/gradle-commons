@@ -59,7 +59,8 @@ ext {
                     cassandraUnit            : 'org.cassandraunit:cassandra-unit:4.3.1.0',
                     otjPgEmbedded            : 'com.opentable.components:otj-pg-embedded:0.13.3',
                     nettyTransportNativeEpoll: 'io.netty:netty-transport-native-epoll:4.1.51.Final',
-                    feignGson                : 'io.github.openfeign:feign-gson:10.10.1'
+                    feignGson                : 'io.github.openfeign:feign-gson:10.10.1',
+                    activeMqJmsPool          : 'org.apache.activemq:activemq-jms-pool:5.16.0'
             ]
     ]
 }
