@@ -25,8 +25,7 @@ ext {
             ],
             spring       : [
                     securityCore: 'org.springframework.security:spring-security-core:5.4.0',
-                    securityWeb : 'org.springframework.security:spring-security-web:5.4.0',
-                    messagingJms: 'org.springframework:spring-jms:5.2.9.RELEASE'
+                    securityWeb : 'org.springframework.security:spring-security-web:5.4.0'
             ],
             springCloud  : [
                     security    : 'org.springframework.boot:spring-boot-starter-security',
@@ -60,8 +59,7 @@ ext {
                     cassandraUnit            : 'org.cassandraunit:cassandra-unit:4.3.1.0',
                     otjPgEmbedded            : 'com.opentable.components:otj-pg-embedded:0.13.3',
                     nettyTransportNativeEpoll: 'io.netty:netty-transport-native-epoll:4.1.51.Final',
-                    feignGson                : 'io.github.openfeign:feign-gson:10.10.1',
-                    hibernateValidator       : 'org.hibernate.validator:hibernate-validator:6.1.5.Final'
+                    feignGson                : 'io.github.openfeign:feign-gson:10.10.1'
             ]
     ]
 }
