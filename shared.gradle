@@ -16,6 +16,7 @@ ext {
                     anubisComponentTest               : 'org.apache.fineract.cn.anubis:component-test:0.1.0',
                     
                     identityApi                       : 'org.apache.fineract.cn.identity:api:0.1.0',
+                    identityService                   : 'org.apache.fineract.cn.identity:service:0.1.0',
 
                     serviceStarter                    : 'org.apache.fineract.cn:service-starter:spring_boot_2-SNAPSHOT',
                     provisioner                       : 'org.apache.fineract.cn.provisioner:api:0.1.0',
@@ -25,7 +26,8 @@ ext {
             ],
             spring       : [
                     securityCore: 'org.springframework.security:spring-security-core:5.4.0',
-                    securityWeb : 'org.springframework.security:spring-security-web:5.4.0'
+                    securityWeb : 'org.springframework.security:spring-security-web:5.4.0',
+                    springJMS   : 'org.springframework:spring-jms'
             ],
             springCloud  : [
                     security    : 'org.springframework.boot:spring-boot-starter-security',
@@ -60,7 +62,8 @@ ext {
                     otjPgEmbedded            : 'com.opentable.components:otj-pg-embedded:0.13.3',
                     nettyTransportNativeEpoll: 'io.netty:netty-transport-native-epoll:4.1.51.Final',
                     feignGson                : 'io.github.openfeign:feign-gson:10.10.1',
-                    activeMqJmsPool          : 'org.apache.activemq:activemq-jms-pool:5.16.0'
+                    activeMqJmsPool          : 'org.apache.activemq:activemq-jms-pool:5.16.0',
+                    apacheCommons            : 'org.apache.commons:commons-lang3:3.11'
             ]
     ]
 }
