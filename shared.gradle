@@ -16,7 +16,7 @@ ext {
                     anubisComponentTest               : 'org.apache.fineract.cn.anubis:component-test:0.1.0',
                     
                     identityApi                       : 'org.apache.fineract.cn.identity:api:0.1.0',
-
+                    clientApi                         : 'com.glide.client:api:0.1.0',
                     serviceStarter                    : 'org.apache.fineract.cn:service-starter:spring_boot_2-SNAPSHOT',
                     provisioner                       : 'org.apache.fineract.cn.provisioner:api:0.1.0',
                     permittedFeignClientApi           : 'org.apache.fineract.cn.permitted-feign-client:api:0.1.0',
