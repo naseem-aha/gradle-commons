@@ -62,7 +62,8 @@ ext {
                     feignGson                : 'io.github.openfeign:feign-gson:10.10.1',
                     activeMqJmsPool          : 'org.apache.activemq:activemq-jms-pool:5.16.0',
                     javaxPersistence         : 'javax.persistence:javax.persistence-api:2.2',
-                    javaxValidation          : 'javax.validation:validation-api:2.0.1.Final'
+                    javaxValidation          : 'javax.validation:validation-api:2.0.1.Final',
+                    apacheCommonsLang        : 'org.apache.commons:commons-lang3:3.11'
             ]
     ]
 }
