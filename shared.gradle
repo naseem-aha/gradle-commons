@@ -66,7 +66,7 @@ ext {
                     javaxPersistence         : 'javax.persistence:javax.persistence-api:2.2',
                     javaxValidation          : 'javax.validation:validation-api:2.0.1.Final',
                     apacheCommonsLang        : 'org.apache.commons:commons-lang3:3.11',
-                    postgresqlJdbcDriver     : 'postgresql:postgresql:9.1-901-1.jdbc4'
+                    postgresqlJdbcDriver     : 'org.postgresql:postgresql:42.2.16'
             ]
     ]
 }
