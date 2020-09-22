@@ -66,10 +66,7 @@ ext {
                     javaxPersistence         : 'javax.persistence:javax.persistence-api:2.2',
                     javaxValidation          : 'javax.validation:validation-api:2.0.1.Final',
                     apacheCommonsLang        : 'org.apache.commons:commons-lang3:3.11',
-                    postgresqlJdbcDriver     : 'postgresql:postgresql:9.1-901-1.jdbc4',
-                    hibernatValidator        : 'org.hibernate:hibernate-validator:6.1.5.Final',
-                    hibernateAnnotatio       : 'org.hibernate:hibernate-validator-annotation-processor:6.1.5.Final',
-                    fasterXml                : 'com.fasterxml.jackson.core:jackson-databind:2.8.8'
+                    postgresqlJdbcDriver     : 'postgresql:postgresql:9.1-901-1.jdbc4'
             ]
     ]
 }
