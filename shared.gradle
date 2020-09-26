@@ -23,7 +23,9 @@ ext {
                     permittedFeignClientLibrary       : 'org.apache.fineract.cn.permitted-feign-client:library:0.1.0',
                     permittedFeignClientAnotherForTest: 'org.apache.fineract.cn.permitted-feign-client:another-for-test:0.1.0',
                     glideClientApi                    : 'com.glide.client:api:0.1.0',
-                    glideClientService                : 'com.glide.client:service:0.1.0'
+                    glideClientService                : 'com.glide.client:service:0.1.0',
+					glideTemplateService              : 'com.glidetech.template:service:0.1.0',
+					glideTemplateApi              	  : 'com.glidetech.template:api:0.1.0'
             ],
             spring       : [
                     securityCore: 'org.springframework.security:spring-security-core:5.4.0',
