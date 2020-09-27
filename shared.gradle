@@ -10,10 +10,10 @@ ext {
                     postgresql                        : 'org.apache.fineract.cn:postgresql:0.1.0',
                     command                           : 'org.apache.fineract.cn:command:0.1.0',
 
-                    anubisApi                         : 'org.apache.fineract.cn.anubis:api:0.1.0',
-                    anubisTest                        : 'org.apache.fineract.cn.anubis:test:0.1.0',
-                    anubisLibrary                     : 'org.apache.fineract.cn.anubis:library:0.1.0',
-                    anubisComponentTest               : 'org.apache.fineract.cn.anubis:component-test:0.1.0',
+                    anubisApi                         : 'org.apache.fineract.cn.anubis:anubis-api:0.1.0',
+                    anubisTest                        : 'org.apache.fineract.cn.anubis:anubis-test:0.1.0',
+                    anubisLibrary                     : 'org.apache.fineract.cn.anubis:anubis-library:0.1.0',
+                    anubisComponentTest               : 'org.apache.fineract.cn.anubis:anubis-component-test:0.1.0',
                     
                     identityApi                       : 'org.apache.fineract.cn.identity:api:0.1.0',
                     clientApi                         : 'com.glide.client:api:0.1.0',
