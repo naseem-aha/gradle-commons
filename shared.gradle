@@ -26,8 +26,8 @@ ext {
                     glideClientService                : 'com.glide.client:glide-client-service:0.1.0',
 		    glideTemplateService              : 'com.glidetech.template:glide-template-service:0.1.0',
 		    glideTemplateApi                  : 'com.glidetech.template:glide-template-api:0.1.0',
-                    glideISO8583Api                   : 'com.glide.client:glide-ISO8583-api:0.1.0',
-                    glideISO8583Service               : 'com.glide.client:glide-ISO8583-service:0.1.0',
+                    ISO8583Api          	      : 'com.glidetech.ISO8583:ISO8583-api:0.1.0',
+                    ISO8583Service	              : 'com.glidetech.ISO8583:ISO8583-service:0.1.0',
 		    
             ],
             spring       : [
