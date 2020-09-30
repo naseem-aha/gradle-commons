@@ -29,7 +29,9 @@ ext {
                     ISO8583Api          	          : 'com.glidetech.ISO8583:ISO8583-api:0.1.0',
                     ISO8583Service	                  : 'com.glidetech.ISO8583:ISO8583-service:0.1.0',
                     depositApi                        : 'org.apache.fineract.cn.deposit-account-management:api:0.1.0',
-                    depositService                    : 'org.apache.fineract.cn.deposit-account-management:service:0.1.0'
+                    depositService                    : 'org.apache.fineract.cn.deposit-account-management:service:0.1.0',
+                    prospectApi                       : 'com.glidetech.prospect:prospect-api:0.1.0',
+                    prospectService                   : 'com.glidetech.prospect:prospect-service:0.1.0'
 		    
             ],
             spring       : [
