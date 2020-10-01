@@ -29,8 +29,9 @@ ext {
                     ISO8583Api          	          : 'com.glidetech.ISO8583:ISO8583-api:0.1.0',
                     ISO8583Service	                  : 'com.glidetech.ISO8583:ISO8583-service:0.1.0',
                     depositApi                        : 'org.apache.fineract.cn.deposit-account-management:api:0.1.0',
-                    depositService                    : 'org.apache.fineract.cn.deposit-account-management:service:0.1.0'
-		    
+                    depositService                    : 'org.apache.fineract.cn.deposit-account-management:service:0.1.0',
+		            clientAccountMappingApi           : 'com.glide.client-account-mapping:api:0.1.0',
+                    clientAccountMappingService       : 'com.glide.client-account-mapping:service:0.1.0'
             ],
             spring       : [
                     securityCore: 'org.springframework.security:spring-security-core:5.4.0',
