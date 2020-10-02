@@ -30,8 +30,8 @@ ext {
                     ISO8583Service	                  : 'com.glidetech.ISO8583:ISO8583-service:0.1.0',
                     depositApi                        : 'org.apache.fineract.cn.deposit-account-management:api:0.1.0',
                     depositService                    : 'org.apache.fineract.cn.deposit-account-management:service:0.1.0',
-                    prospectApi                       : 'com.glide.prospect:api:0.1.0',
-                    prospectService                   : 'com.glide.prospect:service:0.1.0',
+                    prospectApi                       : 'com.glidetech.prospect:api:0.1.0',
+                    prospectService                   : 'com.glidetech.prospect:service:0.1.0',
 		            clientAccountMappingApi           : 'com.glide.client-account-mapping:api:0.1.0',
                     clientAccountMappingService       : 'com.glide.client-account-mapping:service:0.1.0'
             ],
