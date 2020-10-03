@@ -32,8 +32,10 @@ ext {
                     depositService                    : 'org.apache.fineract.cn.deposit-account-management:service:0.1.0',
                     prospectApi                       : 'com.glidetech.prospect:api:0.1.0',
                     prospectService                   : 'com.glidetech.prospect:service:0.1.0',
-		            clientAccountMappingApi           : 'com.glide.client-account-mapping:api:0.1.0',
-                    clientAccountMappingService       : 'com.glide.client-account-mapping:service:0.1.0'
+		    clientAccountMappingApi           : 'com.glide.client-account-mapping:api:0.1.0',
+                    clientAccountMappingService       : 'com.glide.client-account-mapping:service:0.1.0',
+		    accountingApi		      : 'org.apache.fineract.cn.accounting:api:0.1.0'
+		    
             ],
             spring       : [
                     securityCore: 'org.springframework.security:spring-security-core:5.4.0',
