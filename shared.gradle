@@ -34,7 +34,7 @@ ext {
                     prospectService                   : 'com.glidetech.prospect:service:0.1.0',
 		    clientAccountMappingApi           : 'com.glide.client-account-mapping:api:0.1.0',
                     clientAccountMappingService       : 'com.glide.client-account-mapping:service:0.1.0',
-		    accountingApi		      : 'org.apache.fineract.cn.accounting:api:0.1.0'
+		    accountingApi		      : 'org.apache.fineract.cn.accounting:accounting-api:0.1.0'
 		    
             ],
             spring       : [
