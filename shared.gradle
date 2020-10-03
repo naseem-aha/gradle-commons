@@ -35,7 +35,8 @@ ext {
 		    clientAccountMappingApi           : 'com.glide.client-account-mapping:api:0.1.0',
                     clientAccountMappingService       : 'com.glide.client-account-mapping:service:0.1.0',
 		    accountingApi		      : 'org.apache.fineract.cn.accounting:accounting-api:0.1.0',
-		    transactionApi		      : 'com.glidetech.transaction:transaction-api:0.1.0'
+		    transactionApi		      : 'com.glidetech.transaction:transaction-api:0.1.0',
+		    transactionService		      : 'com.glidetech.transaction:transaction-service:0.1.0',
 		    
             ],
             spring       : [
