@@ -14,8 +14,9 @@ ext {
                     anubisTest                        : 'org.apache.fineract.cn.anubis:anubis-test:0.1.0',
                     anubisLibrary                     : 'org.apache.fineract.cn.anubis:anubis-library:0.1.0',
                     anubisComponentTest               : 'org.apache.fineract.cn.anubis:anubis-component-test:0.1.0',
-                    
+
                     identityApi                       : 'org.apache.fineract.cn.identity:api:0.1.0',
+                    identityService                   : 'org.apache.fineract.cn.identity:service:0.1.0',
                     clientApi                         : 'com.glide.client:api:0.1.0',
                     serviceStarter                    : 'org.apache.fineract.cn:service-starter:spring_boot_2-SNAPSHOT',
                     provisioner                       : 'org.apache.fineract.cn.provisioner:api:0.1.0',
@@ -32,16 +33,17 @@ ext {
                     depositService                    : 'org.apache.fineract.cn.deposit-account-management:service:0.1.0',
                     prospectApi                       : 'com.glidetech.prospect:api:0.1.0',
                     prospectService                   : 'com.glidetech.prospect:service:0.1.0',
-		    clientAccountMappingApi           : 'com.glide.client-account-mapping:api:0.1.0',
+                    clientAccountMappingApi           : 'com.glide.client-account-mapping:api:0.1.0',
                     clientAccountMappingService       : 'com.glide.client-account-mapping:service:0.1.0',
-		    accountingApi		      : 'org.apache.fineract.cn.accounting:accounting-api:0.1.0',
-		    transactionApi		      : 'com.glidetech.transaction:transaction-api:0.1.0',
-		    transactionService		      : 'com.glidetech.transaction:transaction-service:0.1.0',
-		    
+                    accountingApi		      : 'org.apache.fineract.cn.accounting:accounting-api:0.1.0',
+                    transactionApi		      : 'com.glidetech.transaction:transaction-api:0.1.0',
+                    transactionService		      : 'com.glidetech.transaction:transaction-service:0.1.0',
+
             ],
             spring       : [
                     securityCore: 'org.springframework.security:spring-security-core:5.4.0',
-                    securityWeb : 'org.springframework.security:spring-security-web:5.4.0'
+                    securityWeb : 'org.springframework.security:spring-security-web:5.4.0',
+                    springJMS   : 'org.springframework:spring-jms'
             ],
             springCloud  : [
                     security    : 'org.springframework.boot:spring-boot-starter-security',
@@ -60,7 +62,7 @@ ext {
                     ribbon   : 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon',
                     cassandra: 'org.springframework.boot:spring-boot-starter-data-cassandra',
                     activemq : 'org.springframework.boot:spring-boot-starter-activemq'
-,
+                    ,
             ],
             miscellaneous: [
                     gson                     : 'com.google.code.gson:gson',
