@@ -82,7 +82,8 @@ ext {
                     javaxValidation          : 'javax.validation:validation-api:2.0.1.Final',
                     apacheCommonsLang        : 'org.apache.commons:commons-lang3:3.11',
                     postgresqlJdbcDriver     : 'org.postgresql:postgresql:42.2.16',
-                    guava                    : 'com.google.guava:guava:29.0-jre'
+                    guava                    : 'com.google.guava:guava:29.0-jre',
+                    threeten                 : 'org.threeten:threeten-extra:1.5.0'
             ]
     ]
 }
